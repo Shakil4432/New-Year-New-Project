@@ -25,19 +25,109 @@
   font-weight: 700;
   padding-top: 40px;
 }
-.paragraph {
+.paragraph1 {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
   padding-top: 20px;
   line-height: 20px;
 }
-.btn_contact{
-    margin-top: 30px;
-    border-radius: 5px;
-    background: #F15B22;
-    padding:20px 30px;
-    border: none;
+.btn_contact {
+  margin-top: 30px;
+  border-radius: 5px;
+  background: #f15b22;
+  padding: 20px 30px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+.section_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  margin-left: 100px;
+
+}
+.background {
+  width: 527.929px;
+  height: 527.929px;
+  position: absolute;
+  left: 0;
+  top: 1151px;
+  left: 120px;
+  border-radius: 50%;
+}
+.person{
+    position: relative;
+    z-index: 1;
+    margin-top: 146px;
+}
+.img_div{
+    width: 451px;
+    height: 898px;
+}
+.writing_div{
+    margin-top: 300px;
+    padding: 100px;
+}
+.paragraph2{
+    margin-right: 80px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 20px;
+    font-size: 16px;
+}
+p{
+    line-height: 30px;
+    font-size: 16px;
+}
+.Heading{
+    padding-bottom: 10px;
+}
+.fa-solid{
+    color: #16D887;
+    padding-right: 10px;
+}
+.My_plan_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 230px;
+}
+.My_plan_heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.My_plan{
+    text-align: center;
+}
+.paragraph3{
+    color: #737272;
+}
+.heading3{
+    padding: 10px;
+}
+.contact_banner{
+    background-image: url("../images/watch.png");
+    margin:100px 230px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+.contact_banner_text{
+    width:459px;
+    padding: 69px;
+    font-size: 20px;
     color: #fff;
-    font-weight: 600;
+}
+.btn_call_me{
+    margin-top: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #f15b22;
+    font-weight: 700;
+    font-size: 15px;
 }
